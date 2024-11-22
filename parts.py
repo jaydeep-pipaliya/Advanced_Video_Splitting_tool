@@ -41,7 +41,7 @@ def convert_and_split_video(input_path, output_folder, clip_duration=55, aspect_
 
             # Create title text
             title_clip = TextClip(
-                "New South Movie 🎬 🍿",
+                "Text that needs to write upon video",
                 fontsize=80,
                 color='black',
                 font="Liberation-Sans-Bold",
@@ -90,6 +90,6 @@ def convert_and_split_video(input_path, output_folder, clip_duration=55, aspect_
     print("Processing complete.")
 
 # Usage
-input_video_path = "/home/jaydippipaliya/Downloads/Exp_parts/devera.mkv"
-output_folder = "output_clips_folder"
+input_video_path = "vide path"
+output_folder = "output folder path"
 convert_and_split_video(input_video_path, output_folder)
